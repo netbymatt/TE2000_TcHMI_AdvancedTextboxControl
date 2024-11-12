@@ -1,6 +1,14 @@
 ﻿{
   "modules": [
     {
+      "type": "Package",
+      "nugetId": "Beckhoff.TwinCAT.HMI.Framework"
+    },
+    {
+      "type": "Package",
+      "nugetId": "Beckhoff.TwinCAT.HMI.Controls"
+    },
+    {
       "type": "Control",
       "basePath": "./TcHmi_AdvancedTextboxControl",
       "descriptionFile": "Description.json",
